@@ -10,9 +10,11 @@ function Navbar() {
     </div>
        
        <div className='flex  justify-between w-1/3 '>
-         <Link to="/Home">Home</Link>
-        <Link to="/Product">Product</Link>
-        <Link to="/About">About</Link>
+         <Link to="/">Home</Link>
+      <Link to="/product">Product</Link>
+      <Link to="/about">About</Link>
+      <Link to="/coures">Coures</Link>
+      
        </div>
     </div>
   )
